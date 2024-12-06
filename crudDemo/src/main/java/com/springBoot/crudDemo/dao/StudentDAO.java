@@ -6,4 +6,6 @@ public interface StudentDAO {
 
     void save(Student theStudent);
     
+    //Method to search on DB by Id
+    Student findById(Integer id);
 }
