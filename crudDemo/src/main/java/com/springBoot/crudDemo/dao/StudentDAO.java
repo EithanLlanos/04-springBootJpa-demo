@@ -13,4 +13,6 @@ public interface StudentDAO {
 
     //Method to retrieve all
     List<Student> findAll();
+
+    List<Student> findByLastName(String theLastName);
 }
